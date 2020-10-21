@@ -1,0 +1,95 @@
+    .navbar-brand img {
+        max-height: 40px;
+        border-radius: 60%;
+    }
+    
+    .navbar {
+        background: linear-gradient(45deg, #ecc9f3, #68097391);
+    }
+    
+    .navbar-toggler {
+        background-color: #530567a8;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #390e4e;
+    }
+    
+    .container-fluid .row {
+        background-image: url("../images/img-home.jpg");
+        min-height: 70vh;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .container-fluid .row .presentation {
+        background-color: rgba(0, 0, 0, 0.5);
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .ml6 {
+        position: relative;
+        font-weight: 900;
+        font-size: 2.6em;
+        color: #b08dc5;
+        font-family: 'Lobster', cursive;
+    }
+    
+    .ml6 .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.1em;
+        overflow: hidden;
+    }
+    
+    .ml6 .text-wrapper2 {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.1em;
+        overflow: hidden;
+        font-size: 1.5rem;
+        color: #9c9cd0;
+    }
+    
+    .ml6 .letter {
+        display: inline-block;
+        line-height: 1em;
+    }
+    
+    .container-fluid .row .accueil {
+        align-items: flex-end;
+        display: flex;
+        min-height: 70vh;
+    }
+    
+    .container-fluid .row .accueil h3 {
+        font-size: 2.1rem;
+        color: #3b1e4c;
+        font-family: 'Lobster', cursive;
+    }
+    
+    .container-fluid .row .accueil h4 {
+        font-size: 1.7rem;
+        color: #5e3775;
+        font-family: 'Lobster', cursive;
+    }
+    
+    .container-fluid .row .accueil h6 {
+        font-size: 1.5rem;
+        color: #9665b3;
+        font-family: 'Lobster', cursive;
+    }
+    
+    @media (max-width: 768px) {
+        .container-fluid .row .accueil {
+            display: none;
+        }
+    }

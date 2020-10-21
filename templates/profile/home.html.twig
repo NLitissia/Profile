@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<div class="container-fluid">
+<div class="row">
+<div class="col-12 col-md-6 presentation">
+   <div>
+      <h3 class="ml6">
+       <span class="text-wrapper">
+         <span class="letters">Salut ! je m'appelle Litissia</span>
+       </span>
+       <span class="text-wrapper2">
+         <span class="letters">Ingénieur  Développement Logiciels</span>
+       </span>
+     </h3>
+     
+   </div>
+</div>
+<div class="col-12 col-md-6 accueil">
+<div> 
+   <h3>Bienvenu sur mon Site</h3>
+   <h4>vous pouvez retrouver mes formations ainsi que mes experiences</h4>
+   <h6>Merci de laisser votre avis </h6>
+   <div>
+</div>
+</div>
+</div>
+{% endblock %}
+{% block javascripts %}
+<script>
+var textWrapper = document.querySelector('.ml6 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+{% endblock %}
