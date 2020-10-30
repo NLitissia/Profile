@@ -1,0 +1,5 @@
+version: 2
+main:
+  type: static
+  path: templates/profiles/home.html.twig
+  spa: true
