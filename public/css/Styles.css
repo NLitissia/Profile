@@ -1,95 +1,267 @@
-    .navbar-brand img {
-        max-height: 40px;
-        border-radius: 60%;
-    }
-    
-    .navbar {
-        background: linear-gradient(45deg, #ecc9f3, #68097391);
-    }
-    
-    .navbar-toggler {
-        background-color: #530567a8;
-    }
-    
-    .navbar-expand-lg .navbar-nav .nav-link {
-        color: #390e4e;
-    }
-    
-    .container-fluid .row {
-        background-image: url("../images/img-home.jpg");
-        min-height: 70vh;
-        align-items: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    
-    .container-fluid .row .presentation {
-        background-color: rgba(0, 0, 0, 0.5);
-        min-height: 70vh;
-        display: flex;
-        align-items: center;
-    }
-    
-    .ml6 {
-        position: relative;
-        font-weight: 900;
-        font-size: 2.6em;
-        color: #b08dc5;
-        font-family: 'Lobster', cursive;
-    }
-    
-    .ml6 .text-wrapper {
-        position: relative;
-        display: inline-block;
-        padding-top: 0.2em;
-        padding-right: 0.05em;
-        padding-bottom: 0.1em;
-        overflow: hidden;
-    }
-    
-    .ml6 .text-wrapper2 {
-        position: relative;
-        display: inline-block;
-        padding-top: 0.2em;
-        padding-right: 0.05em;
-        padding-bottom: 0.1em;
-        overflow: hidden;
-        font-size: 1.5rem;
-        color: #9c9cd0;
-    }
-    
-    .ml6 .letter {
-        display: inline-block;
-        line-height: 1em;
-    }
-    
-    .container-fluid .row .accueil {
-        align-items: flex-end;
-        display: flex;
-        min-height: 70vh;
-    }
-    
-    .container-fluid .row .accueil h3 {
-        font-size: 2.1rem;
-        color: #3b1e4c;
-        font-family: 'Lobster', cursive;
-    }
-    
-    .container-fluid .row .accueil h4 {
-        font-size: 1.7rem;
-        color: #5e3775;
-        font-family: 'Lobster', cursive;
-    }
-    
-    .container-fluid .row .accueil h6 {
-        font-size: 1.5rem;
-        color: #9665b3;
-        font-family: 'Lobster', cursive;
-    }
-    
-    @media (max-width: 768px) {
-        .container-fluid .row .accueil {
-            display: none;
+        body {
+            background: #fdf5ff;
         }
-    }
+        
+        .navbar-brand img {
+            max-height: 40px;
+            border-radius: 60%;
+        }
+        
+        .navbar,
+        .page-footer {
+            background: linear-gradient(45deg, #ecc9f3, #68097391);
+        }
+        
+        .navbar-toggler {
+            background-color: #530567a8;
+        }
+        
+        .navbar-expand-lg .navbar-nav .nav-link,
+        p,
+        h6 {
+            color: #390e4e;
+        }
+        
+        .container-fluid .row {
+            background-image: url("../images/img-home.jpg");
+            min-height: 70vh;
+            align-items: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        .container-fluid .row .presentation {
+            background-color: rgba(0, 0, 0, 0.5);
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .ml6 {
+            position: relative;
+            font-weight: 900;
+            font-size: 2.6em;
+            color: #b08dc5;
+            font-family: 'Lobster', cursive;
+        }
+        
+        .ml6 .text-wrapper {
+            position: relative;
+            display: inline-block;
+            padding-top: 0.2em;
+            padding-right: 0.05em;
+            padding-bottom: 0.1em;
+            overflow: hidden;
+        }
+        
+        .ml6 .text-wrapper2 {
+            position: relative;
+            display: inline-block;
+            padding-top: 0.2em;
+            padding-right: 0.05em;
+            padding-bottom: 0.1em;
+            overflow: hidden;
+            font-size: 1.5rem;
+            color: #9c9cd0;
+        }
+        
+        .ml6 .letter {
+            display: inline-block;
+            line-height: 1em;
+        }
+        
+        .container-fluid .row .accueil {
+            align-items: flex-end;
+            display: flex;
+            min-height: 70vh;
+        }
+        
+        .container-fluid .row .accueil h3 {
+            font-size: 2.1rem;
+            color: #3b1e4c;
+            font-family: 'Lobster', cursive;
+        }
+        
+        .container-fluid .row .accueil h4 {
+            font-size: 1.7rem;
+            color: #5e3775;
+            font-family: 'Lobster', cursive;
+        }
+        
+        .container-fluid .row .accueil h6 {
+            font-size: 1.5rem;
+            color: #9665b3;
+            font-family: 'Lobster', cursive;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .container-fluid .row .accueil {
+                display: none;
+            }
+            Footer img {
+                border-radius: 35%;
+            }
+        }
+        
+        .list-inline-item i {
+            color: #390e4e;
+            ;
+        }
+        
+        .list-inline-item {
+            padding: 20px;
+        }
+        
+        .list-inline-item:hover,
+        #CV i:hover {
+            transform: scale(1.75);
+        }
+        
+        .container-pres,
+        .formation,
+        main {
+            max-width: 100%;
+            background: #fdf5ff;
+        }
+        
+        .container-pres .row p {
+            padding: 20px;
+        }
+        
+        .flip-card {
+            background-color: transparent;
+            width: 200px;
+            height: 200px;
+            perspective: 1000px;
+        }
+        
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+        
+        .flip-card-front {
+            background-color: #f7e4fb;
+        }
+        
+        .flip-card-back {
+            background-color: #b08dc5;
+            color: white;
+            transform: rotateY(180deg);
+        }
+        
+        .container .row {
+            padding: 20px;
+        }
+        
+        .container .row .card {
+            background: radial-gradient(#e0c2da, #ffd0fe0f);
+        }
+        
+        .formation .row {
+            padding: 12vh 0;
+        }
+        
+        .media img {
+            max-width: 50px;
+        }
+        
+        .container .row a,
+        .hr p i,
+        a {
+            color: #390e4e;
+        }
+        
+        .sepratorColor {
+            background-color: #ecc9f3;
+            margin-top: 20px;
+            margin-bottom: 60px;
+            padding: 30px 40px;
+            text-align: center;
+            font-family: 'Lobster';
+        }
+        
+        .sepratorColorCV {
+            background-color: #ecc9f3;
+            margin-top: 20px;
+            margin-bottom: 60px;
+            padding: 30px 40px;
+            font-family: 'Lobster';
+        }
+        
+        .sepratorColorCV i {
+            padding: 0 40px;
+        }
+        
+        .card {
+            margin-bottom: 40px;
+        }
+        
+        .back,
+        .front,
+        .BaseDeDonnee,
+        .Langage,
+        .git,
+        .gestion,
+        .outils {
+            border: hidden;
+        }
+        
+        .logo img {
+            display: table-cell;
+            max-height: 100px;
+            margin: 0 auto;
+            padding-bottom: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+        
+        Footer img {
+            max-width: 30vh;
+            border-radius: 35%;
+            height: 150px;
+        }
+        
+        #projet img {
+            max-width: 40vh;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        #projet .card {
+            height: 450px;
+        }
+        
+        #projet img {
+            height: 200px;
+        }
+        
+        .card-header {
+            text-align: center;
+        }

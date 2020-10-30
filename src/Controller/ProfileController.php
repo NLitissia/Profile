@@ -22,4 +22,22 @@ class ProfileController extends AbstractController
     public function home() {
         return $this->render('profile/home.html.twig');
     }
+    /**
+     * @Route("/formation",name="formation")
+     */
+    public function formation() {
+        return $this->render('profile/formation.html.twig');
+    }
+     /**
+     * @Route("/experience",name="experience")
+     */
+    public function experience() {
+        return $this->render('profile/experience.html.twig');
+    }
+     /**
+     * @Route("/competence",name="competence")
+     */
+    public function competence() {
+        return $this->render('profile/competence.html.twig');
+    }
 }

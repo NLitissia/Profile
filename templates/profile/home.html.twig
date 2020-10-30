@@ -1,32 +1,350 @@
 {% extends 'base.html.twig' %}
 {% block body %}
+<main>
 <div class="container-fluid">
-<div class="row">
-<div class="col-12 col-md-6 presentation">
-   <div>
-      <h3 class="ml6">
-       <span class="text-wrapper">
-         <span class="letters">Salut ! je m'appelle Litissia</span>
-       </span>
-       <span class="text-wrapper2">
-         <span class="letters">Ingénieur  Développement Logiciels</span>
-       </span>
-     </h3>
+        <div class="row">
+            <div class="col-12 col-md-6 presentation">
+                <div>
+                     <h3 class="ml6">
+                        <span class="text-wrapper">
+                          <span class="letters">Salut ! je m'appelle Litissia</span>
+                        </span>
+                         <span class="text-wrapper2">
+                         <span class="letters">Développeur  FullStack - jeune diplômée </span>
+                        </span>
+                      </h3>
      
+                </div>
+             </div>
+            <div class="col-12 col-md-6 accueil">
+              <div> 
+                    <h3>Bienvenu sur Portfolio</h3>
+                    <h4>vous pouvez retrouver mes formations ainsi que mes experiences</h4>
+                </div>
+              </div>
+         </div>
+ </div>  
+<section id="formation" class="section scrollspy">
+ <h3 class ="sepratorColor"> Formations</h3>
+ <div class="container">
+   <div class="row">
+     <div class="col-12 col-md-6 col-lg-6">
+       <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Université Paris Est Créteil</h5>
+    <h6 class="card-subtitle mb-2 text-muted">2019 - 2020</h6>
+    <p class="card-text">Master 2 en Développement Logiciels Sûrs</p>
+    <a href="/formation#MUPEC" class="card-link">Voir + </a>
+    <a target="_blank" href="https://www.u-pec.fr/" class="card-link">UPEC </a>
+  </div>
+</div>
+</div><!-- col-->
+    <div class="col-12 col-md-6 col-lg-6">
+       <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Université Paris Est Créteil</h5>
+            <h6 class="card-subtitle mb-2 text-muted">2018 - 2019</h6>
+            <p class="card-text">Master 1 en Développement Logiciels</p>
+            <a href="/formation#MUPEC" class="card-link">Voir + </a>
+            <a target="_blank" href="https://www.u-pec.fr/" class="card-link">UPEC </a>
+        </div>
+       </div>
+     </div><!-- col-->  
+   </div><!-- row-->
+   <div class="row">
+     <div class="col-12 col-md-6 col-lg-6">
+       <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Université Des Sciences et Technologies Houari Boumediene - Algerie</h5>
+    <h6 class="card-subtitle mb-2 text-muted">2017 - 2018</h6>
+    <p class="card-text">Master 1 En Systémes informatiques intelligents</p>
+    <a href="/formation#MUSTHB" class="card-link">Voir + </a>
+    <a target="_blank" href="https://www.usthb.dz/fr" class="card-link">USTHB </a>
+  </div>
+</div>
+</div><!-- col-->
+    <div class="col-12 col-md-6 col-lg-6">
+       <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Université Des Sciences et Technologies Houari Boumediene - Algerie</h5>
+            <h6 class="card-subtitle mb-2 text-muted">2014 - 2017</h6>
+            <p class="card-text">Licence en informatiques Académique </p>
+            <a href="/formation#LUSTHB" class="card-link">Voir + </a>
+            <a target="_blank" href="https://www.usthb.dz/fr" class="card-link">USTHB </a>
+        </div>
+       </div>
+     </div><!-- col-->  
+   </div><!-- row-->
+ </div><!-- container-->
+</section>
+
+
+<!-- Experiences-->
+<section id="experience" class="section scrollspy">
+ <h3 class ="sepratorColor"> Expériences</h3>
+ <div class="container">
+   <div class="row">
+     <div class="col-12 col-md-6 col-lg-6">
+      <div class="card text-center">
+          <div class="card-header">
+               Développeur FullStack Chez Groupe OPEN en Alternance
+            </div>
+      <div class="card-body">
+          <h5 class="card-title">Client Enedis - Outils de prévention et sécurité </h5>
+          <p class="card-text"> Angular  - Symfony - MariaDB </p>
+          <a href="/experience" class="card-link">Voir + </a>
+          <a target="_blank" href="https://www.open.global/fr" class="card-link"> OPEN </a>
+        </div>
+        <div class="card-footer text-muted">
+             Septembre 2019 - Septembre 2020
+    </div>
+</div>
+</div><!-- col-->
+    <div class="col-12 col-md-6 col-lg-6">
+      <div class="card text-center">
+          <div class="card-header">
+               Développeur FullStack Chez Groupe OPEN en Stage
+            </div>
+      <div class="card-body">
+          <h5 class="card-title">Projet interne  à l'entreprise </h5>
+          <p class="card-text"> PHP7 - Symfony - MySQL </p>
+          <a href="/experience" class="card-link">Voir + </a>
+          <a target="_blank" href="https://www.open.global/fr" class="card-link"> OPEN </a>
+        </div>
+        <div class="card-footer text-muted">
+             Avril 2019 - Septembre 2019
+    </div>
+</div>
+</div><!-- col--> 
+   </div><!-- row-->
+ </div><!-- container-->
+</section>
+<section id="experience" class="section scrollspy">
+ <h3 class ="sepratorColor">Compétences</h3>
+ <div class="container">
+   <div class="row">
+     <div class="col-12">
+      <div class="card back">
+        <h5 class="card-header back">BackEnd</h5>
+            <div class="card-body">
+              <div class="row text-center">
+               <div class= "col-4 logo">
+                <img src="{{asset('images/symfony.png')}}" alt="symfony" data-toggle="tooltip" data-placement="top" title="Symfony">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/php.png')}}" alt="PHP" data-toggle="tooltip" data-placement="top" title="PHP">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/node.png')}}" alt="NodeJS" data-toggle="tooltip" data-placement="top" title="NodeJS">
+               </div>
+              </div> <!-- row-->
+            </div><!-- body-->
+          </div><!-- header-->
+</div><!-- col-->
+<div class="col-12">
+      <div class="card front">
+        <h5 class="card-header front">FrontEnd</h5>
+            <div class="card-body">
+              <div class="row text-center">
+               <div class= "col-4 logo">
+                <img src="{{asset('images/angular.png')}}" alt="Angular" data-toggle="tooltip" data-placement="top" title="Angular">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/vuejs.png')}}" alt="VueJS" data-toggle="tooltip" data-placement="top" title="VueJS">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/html.png')}}" alt="HTML" data-toggle="tooltip" data-placement="top" title="HTML">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/css.png')}}" alt="CSS" data-toggle="tooltip" data-placement="top" title="CSS">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/JS.png')}}" alt="JavaScript" data-toggle="tooltip" data-placement="top" title="JavaScript">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/bootstrap.png')}}"alt="Bootstrap" data-toggle="tooltip" data-placement="top" title="Bootstrap">
+               </div>
+              </div> <!-- row-->
+            </div><!-- body-->
+          </div><!-- header-->
+</div><!-- col-->
+<div class="col-12">
+      <div class="card BaseDeDonnee">
+        <h5 class="card-header BaseDeDonnee">Base De Données</h5>
+            <div class="card-body">
+              <div class="row text-center">
+               <div class= "col-4 logo">
+                <img src="{{asset('images/mysql.png')}}" alt="MySQL" data-toggle="tooltip" data-placement="top" title="MySQL">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/sqlite.png')}}" alt="SQLITE" data-toggle="tooltip" data-placement="top" title="SQLITE">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/oracle.png')}}" alt="ORACLE" data-toggle="tooltip" data-placement="top" title="ORACLE">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/mongodb.png')}}" alt="MongoDB" data-toggle="tooltip" data-placement="top" title="MongoDB">
+               </div>
+              </div> <!-- row-->
+            </div><!-- body-->
+          </div><!-- header-->
+</div><!-- col-->
+<div class="col-12">
+      <div class="card Langage">
+        <h5 class="card-header Langage">Langages de programmation</h5>
+            <div class="card-body">
+              <div class="row text-center">
+               <div class= "col-4 logo">
+                <img src="{{asset('images/python.png')}}" alt="Python" data-toggle="tooltip" data-placement="top" title="PYTHON">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/java.svg')}}" alt="JAVA" data-toggle="tooltip" data-placement="top" title="JAVA">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/C.png')}}" alt="C++" data-toggle="tooltip" data-placement="top" title="C++">
+               </div>
+              </div> <!-- row-->
+            </div><!-- body-->
+          </div><!-- header-->
+</div><!-- col-->
+<div class="col-12">
+      <div class="card git">
+        <h5 class="card-header git">Gestion de Versions</h5>
+            <div class="card-body">
+              <div class="row text-center">
+               <div class= "col-4 logo">
+                <img src="{{asset('images/gitlab.png')}}" alt="GitLab" data-toggle="tooltip" data-placement="top" title="GitLab">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/github.svg')}}" alt="GitHub" data-toggle="tooltip" data-placement="top" title="GitHub">
+               </div>
+              </div> <!-- row-->
+            </div><!-- body-->
+          </div><!-- header-->
+</div><!-- col-->
+<div class="col-12">
+      <div class="card gestion">
+        <h5 class="card-header gestion">Gestion de Projet</h5>
+            <div class="card-body">
+              <div class="row text-center">
+               <div class= "col-4 logo">
+                <img src="{{asset('images/agile.png')}}" alt="Agile" data-toggle="tooltip" data-placement="top" title="agile">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/jira.png')}}" alt="JIRA" data-toggle="tooltip" data-placement="top" title="JIRA">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/monday.png')}}" alt="Monday" data-toggle="tooltip" data-placement="top" title="Monday">
+               </div>
+              </div> <!-- row-->
+            </div><!-- body-->
+          </div><!-- header-->
+</div><!-- col-->
+<div class="col-12">
+      <div class="card outils">
+        <h5 class="card-header outils">Editeurs de Code et Logiciels</h5>
+            <div class="card-body">
+              <div class="row text-center">
+               <div class= "col-4 logo">
+                <img src="{{asset('images/Phpstorm.png')}}" alt="PhpStorm" data-toggle="tooltip" data-placement="top" title="PhpStorm">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/visuelstudio.png')}}" alt="VisuelStudioCode" data-toggle="tooltip" data-placement="top" title="VisuelStudioCode">
+               </div>
+               <div class= "col-4 logo">
+                <img src="{{asset('images/heidisql.png')}}" alt="HeidiSql" data-toggle="tooltip" data-placement="top" title="HeidiSql">
+               </div>
+              </div> <!-- row-->
+            </div><!-- body-->
+          </div><!-- header-->
+</div><!-- col-->
+   </div><!-- row-->
+ </div><!-- container-->
+</section>
+
+
+<section id="projet" class="section scrollspy">
+ <h3 class ="sepratorColor">Projets</h3>
+ <div class="container">
+ <div class="row">
+   <div class="col-12 col-md-4">
+   <div class="card">
+  <img src="{{asset('images/chope.png')}}" class="ProjetTenserflow">
+  <div class="card-body">
+    <h6 class="card-title">Menu Restaurant</h6>
+    <p class="card-text"> Un menu digital pour un restaurant</p>
+    <ul>
+     <li>NodeJS, VueJS</li>
+     <li>MongoDB</li>
+    </ul>
+      <a  target="_blank" href="https://github.com/NLitissia/Projet_SaT2018">
+                 <i class="fab fa-github fa-2x"></i>
+              </a>
+               <a  target="_blank" href="http://chope.worlddigital.fr/">
+                 <i class="fas fa-caret-square-up fa-2x"></i>
+              </a>
+  </div>
+</div>
    </div>
+   <div class="col-12 col-md-4">
+   <div class="card">
+  <img src="{{asset('images/arr.jpg')}}" class="ProjetTenserflow">
+  <div class="card-body">
+    <h6 class="card-title">Surveillance des personnes agées</h6>
+    <p class="card-text">Apprentissage automatique</p>
+    <ul>
+     <li>TensorFlow</li>
+     <li>Python</li>
+    </ul>
+      <a  target="_blank" href="https://github.com/NLitissia/machine-learning-">
+                 <i class="fab fa-github fa-2x"></i>
+       </a>
+  </div>
 </div>
-<div class="col-12 col-md-6 accueil">
-<div> 
-   <h3>Bienvenu sur mon Site</h3>
-   <h4>vous pouvez retrouver mes formations ainsi que mes experiences</h4>
-   <h6>Merci de laisser votre avis </h6>
-   <div>
+   </div>
+   
+   
+    <div class="col-12 col-md-4">
+   <div class="card">
+  <img src="{{asset('images/sat.jpg')}}" class="ProjetTenserflow">
+  <div class="card-body">
+    <h6 class="card-title">Solveur-SAT </h6>
+    <p class="card-text">Probleme NP-Complet</p>
+    <ul>
+     <li>JAVA</li>
+     <li>Algorithm BFS</li>
+     <li>Algorithm DFS</li>
+    </ul>
+      <a  target="_blank" href="https://github.com/NLitissia/Projet_SaT2018">
+                 <i class="fab fa-github fa-2x"></i>
+              </a>
+  </div>
 </div>
-</div>
-</div>
+   </div>
+ </div> <!-- row-->
+ <div class="row">
+     <a  target="_blank" href="https://github.com/NLitissia">
+                 <i class="fab fa-github fa-1x"> Voir tous les Projets</i>
+              </a>
+ </div>
+ </div>
+ </div> <!-- container-->
+</section> 
+
+<section id="CV">
+<h3 class ="sepratorColorCV">Curriculum vitæ
+<a target="_blank" href="{{asset('images/CVLitissiaNEGAA.pdf')}}">
+<i class="fas fa-file-download"></i></a>
+</h3>
+</section>
+</main>
 {% endblock %}
+
 {% block javascripts %}
 <script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
 var textWrapper = document.querySelector('.ml6 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
